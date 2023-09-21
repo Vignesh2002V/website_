@@ -1,0 +1,272 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+/*________________profile pallet section start*/
+#profile_pallet {
+  border-radius: 15px;
+  box-shadow: 0px 3px 4px 0px grey;
+  width: 400px;
+  height: 450px;
+  transition: all 0.5s ease;
+  background-color: #f9fbfb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+/*profile pallet section end*/
+
+/*________________profile pallet details section start*/
+#in_pallet_profile {
+  height: 200px;
+}
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+/*profile details section end*/
+
+/*________________application pallet start*/
+#appl_form {
+  border-radius: 15px;
+  box-shadow: 0px 3px 4px 0px grey;
+  width: 400px;
+  height: 450px;
+  transition: all 0.5s ease;
+  background-color: #f9fbfb;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+}
+/*application pallet end*/
+
+/*________________application logo start*/
+.application_logo {
+  width: 230px;
+  height: 230px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*application logo end*/
+
+/*________________application pallet start*/
+#appl_form:hover {
+  box-shadow: 20px 20px 47px #e6d7d7, -20px -20px 47px #dce2e9;
+  transform: scale(1.1, 1.1);
+}
+/*application pallet end*/
+
+/*________________result pallet start*/
+#result {
+  border-radius: 15px;
+  box-shadow: 0px 3px 4px 0px grey;
+  width: 400px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+}
+/*result pallet end*/
+
+/*________________results_logo logo start*/
+.results_logo {
+  width: 230px;
+  height: 230px;
+}
+/*results_logo logo end*/
+
+/*________________result pallet start*/
+#result:hover {
+  box-shadow: 20px 20px 47px #e6d7d7, -20px -20px 47px #dce2e9;
+  transform: scale(1.1, 1.1);
+}
+/*result pallet end*/
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+h1 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 540;
+}
+#name {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 540;
+  font-size: 24px;
+  margin: 120px;
+  margin-left: 140px;
+  display: flex;
+  justify-content: center;
+}
+#links a {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: block;
+  text-decoration: none;
+}
+#cs,
+#ise,
+#mech,
+#civil,
+#ece,
+#ime,
+#tele,
+#instru,
+#medd,
+#chem,
+#bio,
+#mca {
+  height: 100vh;
+}
+#wrapper h1 {
+  text-align: center;
+  padding: 20px;
+  background-color: #8ba7e08e;
+  scroll-margin-top: 100px;
+}
+#profile {
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+  position: fixed;
+  bottom: 152px;
+  right: 40px;
+  padding: 15px 38px;
+  background-color: rgb(92, 141, 162);
+  text-decoration: none;
+}
+#profile:hover {
+  color: yellow;
+  background-color: red;
+}
+#home {
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+  position: fixed;
+  bottom: 92px;
+  right: 40px;
+  padding: 15px 40px;
+  background-color: rgb(92, 141, 162);
+  text-decoration: none;
+}
+#home:hover {
+  color: yellow;
+  background-color: red;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+.profile_image_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.profile_image_editor {
+  display: flex;
+  align-items: flex-start;
+}
+.change_photo {
+  display: flex;
+  justify-content: right;
+}
+.pallets {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.links_in_pallets {
+  color: black;
+  text-decoration: none;
+}
+.name_,
+.usn_,
+.email_,
+.branch_,
+.sem_ {
+  margin: 0;
+  padding: 10px;
+  font-size: xx-large;
+  font-weight: 500;
+  text-align: center;
+}
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 40px;
+}
+table.GeneratedTable {
+  width: 90%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  color: #000000;
+  margin: auto;
+}
+
+table.GeneratedTable td,
+table.GeneratedTable th {
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  padding: 3px;
+}
+
+table.GeneratedTable thead {
+  background-color: #ffffff;
+}
+._heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+  margin: 10px;
+}
+.name_usn {
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+}
+.update_button {
+  padding: 5px 30px;
+  background-color: rgb(61, 128, 228);
+  font-size: 22px;
+  color: #dce2e9;
+}
+._update {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+._grade_,
+._cie_,
+._see_,
+._total_,
+._usn_,
+._cid_,
+._cname_,
+._credits_,
+._sem_ {
+  text-align: center;
+}
+.new_cie_,
+.new_see_ {
+  width: 35px;
+  text-align: center;
+  background-color: antiquewhite;
+}

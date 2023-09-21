@@ -1,0 +1,120 @@
+/* _____________overall background color of page start */
+body {
+  background-image: linear-gradient(
+    to left,
+    rgba(216, 219, 226, 0.541),
+    rgb(84, 133, 197)
+  );
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+/* overall background color of page end */
+
+/* ________________login box start*/
+.login_box {
+  border: 0px solid rgb(0, 0, 0);
+  padding: 25px;
+  width: 230px;
+  height: 430px;
+  background: linear-gradient(to bottom left, #97a5f7 0%, #58bceb 100%);
+  box-shadow: 0px 3px 5px 0px grey;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+/*login box end*/
+
+/* ________________username deco start*/
+.email,
+.usn,
+.password {
+  font-style: normal;
+  font-size: 38px;
+  font-variant: small-caps;
+  font-weight: normal;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 20px;
+}
+/* username deco end*/
+
+/* ________________username input place deco start*/
+#email,
+#usn,
+#password {
+  border: 0px;
+  padding: 10px;
+  width: 215px;
+  border-radius: 4px;
+}
+
+input[type="password"]:focus {
+  background-color: rgb(236, 241, 243);
+}
+/*password deco end*/
+
+/*_________________username deco start*/
+input[type="text"]:focus {
+  background-color: rgb(236, 241, 243);
+}
+/*username deco end*/
+
+/* _________________submit button deco start*/
+.button {
+  border: 0px rgb(202, 220, 235);
+  padding: 8px 92px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  box-shadow: 0px 3px 5px 0px grey;
+  border-radius: 4px;
+  background-color: rgb(95, 150, 223);
+  transform: translatey(30px);
+}
+/* submit button deco end*/
+
+/* _________________submit button animation start*/
+.button:hover {
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2),
+    0px 6px 20px 0px rgba(0, 0, 0, 0.19);
+}
+/* submit button animation end*/
+
+/* _________________BMSCE animation start*/
+p {
+  margin: 0;
+  font-size: 30px;
+}
+/*BMSCE animation end*/
+
+#logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+/*________________login to website text deco start*/
+
+/* text decoration for changing password and facculty login */
+.last_part {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+._facculty_login,
+.changing_password {
+  font-size: medium;
+  text-decoration: none;
+  color: #000000;
+}
+.old_password {
+  margin: 5px;
+  font-style: normal;
+  font-size: 28px;
+  font-variant: small-caps;
+  font-weight: normal;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 20px;
+}

@@ -1,0 +1,278 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+/*________________profile photo section start*/
+.official {
+  border: 0px solid black;
+  border-radius: 4px;
+  color: rgb(0, 0, 0);
+  position: relative;
+  top: 50px;
+  left: 45px;
+  padding: 15px 40px;
+  background-color: rgb(165, 219, 243);
+  text-decoration: none;
+  z-index: 100;
+}
+.start_page {
+  border-radius: 15px;
+  box-shadow: 0px 3px 4px 0px grey;
+  width: 1400px;
+  height: 75vh;
+  position: relative;
+  top: 0px;
+  left: 50px;
+  background: linear-gradient(to bottom, #ece9e6, #ffffff);
+  display: block;
+  margin-bottom: 70px;
+}
+.img1 {
+  border: 0px solid black;
+  border-radius: 15px;
+  box-shadow: 0px 3px 4px 0px grey;
+  width: auto;
+  height: 400px;
+  position: absolute;
+  top: 80px;
+  bottom: 0;
+  left: 50px;
+  transition: all 0.5s ease;
+}
+.img1:hover {
+  background: #ffffff;
+  box-shadow: 20px 20px 47px #757575, -20px -20px 47px #ffffff;
+}
+.para {
+  overflow: visible;
+  padding-left: 750px;
+  padding-top: 80px;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.start_page_2 {
+  border: 0px solid black;
+  border-radius: 15px;
+  box-shadow: 0px 3px 4px 0px grey;
+  width: 1400px;
+  height: 75vh;
+  position: relative;
+  left: 50px;
+  top: 40px;
+  background: linear-gradient(to bottom, #ece9e6, #ffffff);
+  z-index: 1;
+  display: block;
+  margin-bottom: 60px;
+}
+.img2 {
+  border: 0px solid black;
+  border-radius: 15px;
+  box-shadow: 0px 3px 4px 0px grey;
+  width: auto;
+  height: 400px;
+  position: absolute;
+  right: 50px;
+  bottom: 60px;
+  transition: all 0.5s ease;
+}
+.img2:hover {
+  border: 0px solid black;
+  border-radius: 15px;
+  background: #ffffff;
+  box-shadow: 20px 20px 47px #757575, -20px -20px 47px #ffffff;
+  width: auto;
+  height: 400px;
+  transform: scale(1.1, 1.1);
+  position: absolute;
+  right: 50px;
+  bottom: 60px;
+}
+.para_2 {
+  overflow: visible;
+  padding-top: 70px;
+  padding-right: 300px;
+  padding-left: 40px;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.start_page_3 {
+  border: 0px solid black;
+  border-radius: 15px;
+  box-shadow: 0px 3px 4px 0px grey;
+  width: 1400px;
+  height: 75vh;
+  position: relative;
+  left: 50px;
+  top: 40px;
+  margin-bottom: 60px;
+  background: linear-gradient(to bottom, #ece9e6, #ffffff);
+  display: block;
+}
+.img3 {
+  border: 0px solid black;
+  border-radius: 15px;
+  width: auto;
+  box-shadow: 0px 3px 4px 0px grey;
+  height: 400px;
+  position: absolute;
+  top: 70px;
+  right: 40px;
+  transition: all 0.5s ease;
+}
+
+.img3:hover {
+  border: 0px solid black;
+  border-radius: 15px;
+  background: #ffffff;
+  box-shadow: 20px 20px 47px #757575, -20px -20px 47px #ffffff;
+  width: auto;
+  height: 400px;
+  position: absolute;
+  top: 70px;
+  transform: scale(1.1, 1.1);
+  right: 40px;
+}
+.para_3 {
+  overflow: visible;
+  padding-top: 70px;
+  padding-right: 600px;
+  padding-left: 40px;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.start_page_4 {
+  border: 0px solid black;
+  border-radius: 15px;
+  box-shadow: 0px 3px 4px 0px grey;
+  width: 1400px;
+  height: 75vh;
+  position: relative;
+  top: 40px;
+  left: 50px;
+  background: linear-gradient(to bottom, #ece9e6, #ffffff);
+  z-index: 1;
+  display: block;
+  margin-bottom: 120px;
+}
+.img4 {
+  border: 0px solid black;
+  border-radius: 15px;
+  box-shadow: 0px 3px 4px 0px grey;
+  width: auto;
+  height: 400px;
+  position: absolute;
+  top: 70px;
+  right: 30px;
+  bottom: 0;
+  transition: all 0.5s ease;
+}
+.img4:hover {
+  border: 0px solid black;
+  border-radius: 15px;
+  background: #ffffff;
+  box-shadow: 20px 20px 47px #757575, -20px -20px 47px #ffffff;
+  width: auto;
+  height: 400px;
+  position: absolute;
+  top: 70px;
+  transform: scale(1.1, 1.1);
+  right: 30px;
+  bottom: 0;
+}
+.para_4 {
+  overflow: visible;
+  padding-top: 70px;
+  padding-right: 650px;
+  padding-left: 40px;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/*________________notification pallet start*/
+#notification {
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2),
+    0px 6px 20px 0px rgba(0, 0, 0, 0.19);
+  transition: all 0.5s ease;
+  background-color: #f9f9f9;
+  min-height: 50vh;
+  max-height: 90vh;
+  max-width: 90vw;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.h1_of_exam {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bms_notification,
+.exam_notification {
+  display: flex;
+  flex-wrap: wrap;
+  word-wrap: break-word;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+#notification:hover {
+  box-shadow: 20px 20px 47px #e6d7d7, -20px -20px 47px #dce2e9;
+}
+/*notification pallet end*/
+.end {
+  height: 200px;
+  background-color: rgb(0, 0, 0);
+}
+.ends {
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  position: relative;
+  top: 120px;
+}
+p1 {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+h1 {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+#bms_notification {
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2),
+    0px 6px 20px 0px rgba(0, 0, 0, 0.19);
+  background-color: #f9f9f9;
+  transition: all 0.5s ease;
+  position: relative;
+  margin: auto;
+  margin-bottom: 80px;
+  top: 50px;
+  font-family: "IBM Plex Sans", sans-serif;
+  display: block;
+  overflow-y: hidden;
+  min-height: 50vh;
+  max-height: 90vh;
+  max-width: 90vw;
+}
+#bms_notification:hover {
+  /* height: 540px; */
+  box-shadow: 20px 20px 47px #e6d7d7, -20px -20px 47px #dce2e9;
+}
+.sticky {
+  position: relative;
+  bottom: 10vh;
+  left: 90vw;
+  text-decoration: none;
+  color: white;
+  background-color: #0000005f;
+  border-radius: 10px;
+  padding: 14px;
+}
